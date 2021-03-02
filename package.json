@@ -9,10 +9,6 @@
         "format": "prettier --write '*/**/*.{js,ts,tsx,json}'",
         "lint": "eslint '*/**/*.{js,ts,tsx,json}' --fix"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/notekunn-organization/ts-package-boilerplate.git"
-    },
     "keywords": [
         "typescript",
         "boilerplate",
@@ -21,10 +17,6 @@
     ],
     "author": "Trần Đức Cường <clonebmn2itt@gmail.com>",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/notekunn-organization/ts-package-boilerplate/issues"
-    },
-    "homepage": "https://github.com/notekunn-organization/ts-package-boilerplate#readme",
     "devDependencies": {
         "@types/chai": "^4.2.15",
         "@types/mocha": "^8.2.1",
