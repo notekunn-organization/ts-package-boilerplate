@@ -6,8 +6,8 @@
     "types": "src/@types/index.d.ts",
     "scripts": {
         "test": "mocha -r ts-node/register test/**/*.spec.ts",
-        "format": "prettier --write src/ test/",
-        "lint": "eslint '*/**/*.{js,ts,tsx,json}' --quiet --fix"
+        "format": "prettier --write '*/**/*.{js,ts,tsx,json}'",
+        "lint": "eslint '*/**/*.{js,ts,tsx,json}' --fix"
     },
     "repository": {
         "type": "git",
