@@ -3,15 +3,11 @@
     "version": "1.0.0",
     "description": "Boilder template to write typescript project",
     "main": "lib/index.js",
-    "types": "src/@types/index.d.ts",
+    "types": "lib/index.d.ts",
     "scripts": {
         "test": "mocha -r ts-node/register test/**/*.spec.ts",
         "format": "prettier --write '*/**/*.{js,ts,tsx,json}'",
         "lint": "eslint '*/**/*.{js,ts,tsx,json}' --fix"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/notekunn-organization/ts-package-boilerplate.git"
     },
     "keywords": [
         "typescript",
@@ -21,10 +17,6 @@
     ],
     "author": "Trần Đức Cường <clonebmn2itt@gmail.com>",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/notekunn-organization/ts-package-boilerplate/issues"
-    },
-    "homepage": "https://github.com/notekunn-organization/ts-package-boilerplate#readme",
     "devDependencies": {
         "@types/chai": "^4.2.15",
         "@types/mocha": "^8.2.1",
