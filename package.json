@@ -3,13 +3,13 @@
     "version": "1.0.0",
     "description": "Boilder template to write typescript project",
     "main": "lib/index.js",
-    "types": "lib/index.d.ts",
+    "types": "./src/types/index.d.ts",
     "scripts": {
         "test": "jest --coverage",
         "format": "prettier --write '*/**/*.{js,ts,tsx,json}'",
-        "lint": "eslint '*/**/*.{js,ts,tsx}' --fix",
+        "lint": "eslint *.{js,ts,tsx} --fix",
         "build": "tsc",
-        "build:watch": "tsc -w",
+        "dev": "tsc -w",
         "prepublish": "npm run build",
         "prepublishOnly": "npm run build"
     },
